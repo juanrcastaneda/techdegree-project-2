@@ -162,11 +162,49 @@ footer div p:nth-child(n+2):nth-child(-n+4) {
 } 
 
 @media (min-width: 768px) {
+    
                                         /* Header */
-    .creat{
-        margin: none;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        ;
     }
 
+    .container div {
+        background: transparent;
+    }
+    .item1 {
+        flex: 0 0 100%;
+        
+    }
+    .item {
+        flex: 1;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header ul {
+        flex: 0 0 100%;
+    }
+
+    header img {
+        flex: 1;
+        padding: 20px;
+        order: 2;
+        padding: 0 30px 40px 0px;
+        max-width: 37%;
+
+    }
+
+    header p {
+        flex: 2;
+        font-size: 1.35rem;
+        text-align: left;
+    }
 
                                         /* footer */
     footer div p:nth-child(n+2):nth-child(-n+4) {
