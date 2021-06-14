@@ -338,10 +338,6 @@ footer div p:nth-child(n+2):nth-child(-n+4) {
         padding: 0 5% 45px 5% !important;
     }
 
-    header {
-        padding-bottom: -25px;;
-    }
-
                                             /* Body */
     main {
        background-color: rgb(250, 250, 250);
