@@ -367,10 +367,6 @@ footer div p:nth-child(n+2):nth-child(-n+4) {
         max-width: 90%;
     }
 
-    .main-container :nth-child(3n) img {
-        margin: 0;
-    }
-
     .main-container :nth-child(3n+1) img {
         margin: 0;
         margin-left: auto !important;
@@ -381,7 +377,6 @@ footer div p:nth-child(n+2):nth-child(-n+4) {
         font-size: 1rem;
     }
 
-    
     .main-container :nth-child(3n) img {
         margin: 0;
     }
@@ -397,6 +392,7 @@ footer div p:nth-child(n+2):nth-child(-n+4) {
     .main-container :nth-child(3n+1) p {
         padding-left: 15% !important;
     }
+    
     .main-container :nth-child(3n) p {
         padding-right: 15% !important;
     }
